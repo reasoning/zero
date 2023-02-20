@@ -54,7 +54,7 @@ add_link_options(-nodefaultlibs -lc)
 
 You will also need to define `HERO_USING_STD` in `main.cpp` before other includes, or in `hero/hero.h`, or as an environment variable so that the exports are disabled.
 
-If you enable the default libs but don't define `HERO_USING_STD` this result in duplicate definitions for new/delete and std::bad_alloc etc from `hero/library.h`.
+If you enable the default libs but don't define `HERO_USING_STD` this will result in duplicate definitions for new/delete and std::bad_alloc etc from `hero/library.h`.
 
 
 After these changes `ldd` should report the following.
