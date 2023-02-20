@@ -1,4 +1,4 @@
-# ZeroToHero
+# Zero
 
 Welcome to Zero, a sample project for Hero.
 
