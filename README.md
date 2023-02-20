@@ -8,7 +8,7 @@ This project allows you to bootstrap your own C-- project with a convenient CMak
 
 This project depends on Hero, an object oriented C++ framework which entirely replaces the standard C++ library.
 
-Hero will be downloaded by CMake and built from source, its output will be placed in the CMake dependencies under the build folder.
+Hero will be built from source, its output will be placed in the CMake dependencies under the build folder.
 
 
 ```
