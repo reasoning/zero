@@ -23,7 +23,7 @@ set(MODULE_NAME ${CMAKE_PROJECT_NAME})
 
 include(FetchContent)
 FetchContent_Declare(hero
-    GIT_REPOSITORY https://gitlab.com/reasonio/hero.git
+    GIT_REPOSITORY git@github.com:reasoning/hero.git
     GIT_TAG        main
 )
 FetchContent_MakeAvailable(hero)
